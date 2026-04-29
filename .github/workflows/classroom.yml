@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: make test try=Node
         timeout: 10
-        max-score: 20
+        max-score: 10
     - name: createTree
       id: createtree
       uses: classroom-resources/autograding-command-grader@v1
@@ -57,7 +57,7 @@ jobs:
         setup-command: ''
         command: make test try=treeHeight
         timeout: 10
-        max-score: 10
+        max-score: 20
     - name: countLeaves
       id: countleaves
       uses: classroom-resources/autograding-command-grader@v1
